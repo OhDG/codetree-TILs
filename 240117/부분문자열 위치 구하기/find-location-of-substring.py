@@ -5,6 +5,7 @@ satisfied = False
 for i in range(len(n)):
     for m in range(len(k)):
         if i + m > len(n) - 1:
+            satisfied = False
             break
         if n[i+m] == k[m]:
             satisfied = True
