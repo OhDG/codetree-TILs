@@ -11,13 +11,10 @@ for i in range(len(n)):
             satisfied = True
         else:
             satisfied = False
+            break
     if satisfied:
+        print(i)
         break
 
-if satisfied:
-    for i in range(len(n)):
-        if n[i] == k[0]:
-            print(i)
-            break
-else:
+if not satisfied:
     print(-1)
