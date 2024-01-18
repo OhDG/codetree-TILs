@@ -4,8 +4,8 @@ for i in range(len(n)-1):
     k = int(input())
     if k > len(n)-1:
         n.pop(len(n)-1)
-        for m in range(len(n)):
-            print(n[m], end="")    
+        for s in range(len(n)):
+            print(n[s], end="")    
         continue
     n.pop(k)
     for m in range(len(n)):
