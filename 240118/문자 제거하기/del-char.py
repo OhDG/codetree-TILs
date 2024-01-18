@@ -6,7 +6,7 @@ for i in range(len(n)-1):
         n.pop(len(n)-1)
         for m in range(len(n)):
             print(n[m], end="")    
-        break
+        continue
     n.pop(k)
     for m in range(len(n)):
         print(n[m], end="")
