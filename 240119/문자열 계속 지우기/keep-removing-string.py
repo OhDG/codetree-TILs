@@ -11,6 +11,7 @@ while True:
                 satisfied = True
             else:
                 satisfied = False
+                break
     
         if satisfied:
             for m in range(len(b)):
