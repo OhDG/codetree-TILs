@@ -1,4 +1,6 @@
 alb = input()
-rlt = chr(ord(alb)+1)
-
-print(rlt)
+if alb == 'z':
+    print('a')
+else:
+    rlt = chr(ord(alb)+1)
+    print(rlt)
