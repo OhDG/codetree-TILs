@@ -1,9 +1,8 @@
 n = input().split()
 len_n = len(n[0])
-new_n = ""
 for i in range(int(n[1])):
     k = int(input())
-
+    new_n = ""
     if k == 1:
         n[0] = n[0][1:] + n[0][0]
         print(n[0])
